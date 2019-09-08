@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/goatworld/static/css/main.6f637483.chunk.css",
-    "main.js": "/goatworld/static/js/main.2a24080b.chunk.js",
-    "main.js.map": "/goatworld/static/js/main.2a24080b.chunk.js.map",
+    "main.js": "/goatworld/static/js/main.5c2762df.chunk.js",
+    "main.js.map": "/goatworld/static/js/main.5c2762df.chunk.js.map",
     "runtime~main.js": "/goatworld/static/js/runtime~main.de8883c1.js",
     "runtime~main.js.map": "/goatworld/static/js/runtime~main.de8883c1.js.map",
     "static/js/2.b0fe009c.chunk.js": "/goatworld/static/js/2.b0fe009c.chunk.js",
     "static/js/2.b0fe009c.chunk.js.map": "/goatworld/static/js/2.b0fe009c.chunk.js.map",
     "index.html": "/goatworld/index.html",
-    "precache-manifest.99b8e8a2f171afacf14115a66729bcd4.js": "/goatworld/precache-manifest.99b8e8a2f171afacf14115a66729bcd4.js",
+    "precache-manifest.9c1cef85536f5b5b2b533ae36dd06353.js": "/goatworld/precache-manifest.9c1cef85536f5b5b2b533ae36dd06353.js",
     "service-worker.js": "/goatworld/service-worker.js",
     "static/css/main.6f637483.chunk.css.map": "/goatworld/static/css/main.6f637483.chunk.css.map"
   }
