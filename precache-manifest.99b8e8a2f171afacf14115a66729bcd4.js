@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "396f287d037b52ec3e4a1ee8d492d476",
+    "revision": "32986bf6f6028d2952e30ae26813c806",
     "url": "/goatworld/index.html"
   },
   {
-    "revision": "4ad74b2ae53f3c9c0356",
+    "revision": "289300b812a791d2da7c",
     "url": "/goatworld/static/css/main.6f637483.chunk.css"
   },
   {
-    "revision": "7226be7a99cbe76d1b82",
-    "url": "/goatworld/static/js/2.a150d550.chunk.js"
+    "revision": "7bc60db9d5ed1c280609",
+    "url": "/goatworld/static/js/2.b0fe009c.chunk.js"
   },
   {
-    "revision": "4ad74b2ae53f3c9c0356",
-    "url": "/goatworld/static/js/main.2e1a0323.chunk.js"
+    "revision": "289300b812a791d2da7c",
+    "url": "/goatworld/static/js/main.2a24080b.chunk.js"
   },
   {
     "revision": "c9d2a1824cd3573b9535",
