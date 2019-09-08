@@ -28,7 +28,7 @@ const secondNames = [
 function generateGoatName() {
   var firstName = firstNames[Math.floor(Math.random() * firstNames.length)]
   var secondName = secondNames[Math.floor(Math.random() * secondNames.length)]
-  return `${firstNambutte} ${secondName}`
+  return `${firstName} ${secondName}`
 }
 
 export default generateGoatName
