@@ -10,6 +10,7 @@ const firstNames = [
   "burpy",
   "rainbow",
   "naked",
+  "sparkle"
 ];
 
 const secondNames = [
@@ -23,6 +24,9 @@ const secondNames = [
   "underwear",
   "supergoat",
   "guys",
+  "dancing butt",
+  "mcpoopington",
+  "toes",
 ];
 
 function generateGoatName() {
