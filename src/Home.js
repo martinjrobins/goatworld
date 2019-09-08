@@ -9,6 +9,8 @@ import {
   AuthContext
 } from "./Auth";
 
+import generateGoatName from "./NameGenerator.js"
+
 const Home = () => {
   const {
     currentUser
@@ -18,9 +20,22 @@ const Home = () => {
       <h1>Your goat name is {currentUser.data.name}</h1> <
     button onClick = {
       () => {
+        app.database().ref('goats/' + currentUser.user.uid).set({
+          name: generateGoatName(),
+        });
+      }
+    } > Rename <
+    /button>
+
+    <
+    button onClick = {
+      () => {
         app.auth().signOut();
       }
-    } > Sign out < /button> < / >
+    } > Sign out < /button> 
+
+    <
+    />
   );
 
 };

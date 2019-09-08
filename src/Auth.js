@@ -12,14 +12,14 @@ export const AuthProvider = ({
   const [currentUser, setCurrentUser] = useState(null);
 
   useEffect(() => {
-    const setUser = (newUser) => {
-      if (newUser) {
-        app.database().ref('goats/' + newUser.uid).on('value', (snapshot) => {
-          console.log(`new user ${newUser.uid}`);
+    const setUser = (user) => {
+      if (user) {
+        app.database().ref('goats/' + user.uid).on('value', (snapshot) => {
+          console.log(`new user ${user.uid}`);
           console.log(`got user data ${snapshot.val()}`);
           const data = snapshot.val();
           setCurrentUser({
-            newUser,
+            user,
             data,
           });
         });
