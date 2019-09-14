@@ -1,5 +1,6 @@
 import React, { useCallback, useContext } from "react";
 import { withRouter, Redirect } from "react-router";
+import { Link } from "react-router-dom";
 import app from "./base.js";
 import { AuthContext } from "./Auth.js";
 
@@ -38,7 +39,12 @@ const Login = ({ history }) => {
           Password
           <input name="password" type="password" placeholder="Password" />
         </label>
-        <button type="submit">Log in</button>
+        <table>
+          <tr>
+            <th><button type="submit">Log in</button></th>
+            <th><Link to={"/signup"}>Signup</Link></th>
+          </tr>
+        </table>
       </form>
     </div>
   );
